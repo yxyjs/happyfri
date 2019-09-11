@@ -4,7 +4,6 @@ import routes from './router/router'
 
 import App from './App.vue'
 import store from './store/index'
-import ajax from './config/ajax'
 import './style/common.css'
 import './config/rem'
 
