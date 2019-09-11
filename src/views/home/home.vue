@@ -1,19 +1,18 @@
 <template>
   <div class="home-container">
-    <itemcontainer father-component='home'></itemcontainer>
+    <itemcontainer father-component="home"></itemcontainer>
   </div>
 </template>
 
 <script>
-import itemcontainer from "@/components/itemcontainer"
+import itemcontainer from "@/components/itemcontainer";
 export default {
   name: "home",
-  components:{
+  components: {
     itemcontainer
   }
 };
 </script>
 
 <style lang="less" scoped>
-  
 </style>

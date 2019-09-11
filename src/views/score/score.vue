@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="box">
     <div class="your_scores_container">
       <header class="your_scores">
         <span class="score_num">{{score}}</span>
@@ -41,6 +41,7 @@ export default {
   created() {
     this.computedScore();
     this.getScoreTip();
+    document.body.style.backgroundImage = "url(../../images/4-1.jpg)";
   },
   methods: {
     showCover() {
@@ -62,9 +63,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
-body {
-  background-image: url(../../images/4-1.jpg);
-  padding-top: 1.2rem;
+.box{
+  height: 100vh;
+  background-image: url("../../images/4-1.jpg");
+  // padding-top: 1.2rem;
 }
 .your_scores_container {
   width: 9.7rem;
